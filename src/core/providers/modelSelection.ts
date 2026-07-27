@@ -7,6 +7,7 @@ const PROVIDER_MODEL_SELECTION_PREFIXES: Partial<Record<ProviderId, string>> = {
   grok: 'grok/',
   kimi: 'kimi-code/',
   pi: 'pi/',
+  commandcode: 'commandcode/',
 };
 
 export interface ProviderModelSelection {

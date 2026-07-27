@@ -79,5 +79,6 @@ test('current repository satisfies provider inventory', () => {
     'opencode',
     'kimi',
     'pi',
+    'commandcode',
   ]);
 });

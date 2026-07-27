@@ -17,7 +17,7 @@
 - 💬 **Continuous Conversation Workflow**: Multi-tab interface, saved conversations, fast session search, resume, fork, rewind, and provider-native history replay. Conversation-dot navigation previews and jumps to each prompt.
 - ✏️ **Inline Editing**: Inline prompt execution with real-time word-level diff previews directly in your active editor.
 - 📝 **Live Markdown Composer**: Powered by CodeMirror 6 live preview, auto-completing `@note` and `@folder` mentions, drag-and-drop vault items, image attachments, and File Explorer "Add to Codian" integration.
-- 🌐 **Provider-Native Connections**: Supports 6 local CLI providers (`claude`, `codex`, `kimi`, `grok`, `opencode`, `pi`). Models, sessions, authentication, and permissions follow provider-native capabilities; feature parity is never assumed.
+- 🌐 **Provider-Native Connections**: Supports 7 local CLI providers (`claude`, `codex`, `kimi`, `grok`, `opencode`, `pi`, `cmd`). Models, sessions, authentication, and permissions follow provider-native capabilities; feature parity is never assumed.
 - ⚙️ **Shared Workspace Resources**: Manage Skills, MCP servers, subagents, and commands. Supported providers can discover managed symlink Skills from vault `.agents/skills`.
 - 🔧 **Models and Claude Services**: Model menus are organized by provider. Claude supports custom models, aliases, China Science and Technology Cloud, Alibaba Bailian, Volcengine Ark, DeepSeek, and custom Anthropic-compatible endpoints. Secrets use Obsidian `SecretStorage`.
 - ✨ **Focused Entry Experience**: Empty chats show a reduced-motion-aware thinking-orbs animation; switch back to traditional navigation buttons when preferred.
@@ -34,6 +34,7 @@
   - [Kimi Code](https://moonshotai.github.io/kimi-code/) (`kimi`)
   - [Grok](https://docs.x.ai/docs/grok-code-fast-1) (`grok`)
   - [OpenCode](https://opencode.ai/) (`opencode`)
+  - [Command Code](https://commandcode.ai/) (`cmd`)
   - [Pi](https://github.com/badlogic/pi-mono) (`pi`)
 - **Node.js**: Node.js 24 (only required if building from source).
 

@@ -9,6 +9,7 @@ describe('built-in ProviderModule catalog', () => {
       'opencode',
       'kimi',
       'pi',
+      'commandcode',
     ]);
     for (const module of BUILT_IN_PROVIDER_MODULES) {
       expect(module.workspace.initialize).toEqual(expect.any(Function));

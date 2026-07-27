@@ -17,7 +17,7 @@
 - 💬 **连续对话工作流**：支持多 Tab、会话自动保存、历史搜索、恢复/Fork/Rewind 与 Provider 原生历史回放；对话圆点导航可预览并直达每轮提问。
 - ✏️ **嵌入式编辑器 (Inline Edit)**：在编辑器中选中文本直接输入指令，实时查看词级 Diff 预览并一键应用修改。
 - 📝 **Live Markdown 实时预览输入框**：基于 CodeMirror 6 构建，支持 `@笔记` 和 `@文件夹` 自动补全、拖拽 Vault 文件/目录添加上下文、图片粘贴，以及文件列表右键“添加到 Codian”。
-- 🌐 **Provider 原生连接**：支持 6 个本地 CLI Provider（`claude`, `codex`, `kimi`, `grok`, `opencode`, `pi`）；模型、会话、认证和权限遵循 Provider 原生能力，不假设功能完全相同。
+- 🌐 **Provider 原生连接**：支持 7 个本地 CLI Provider（`claude`, `codex`, `kimi`, `grok`, `opencode`, `pi`, `cmd`）；模型、会话、认证和权限遵循 Provider 原生能力，不假设功能完全相同。
 - ⚙️ **共享工作区资源**：管理 Skills、MCP、Subagents 与命令；Vault `.agents/skills` 中的软链接 Skill 可被支持它的 Provider 发现。
 - 🔧 **模型与 Claude 服务配置**：按 Provider 组织模型菜单；Claude 支持自定义模型、别名，以及中科院云、阿里百炼、火山引擎、DeepSeek 和自定义 Anthropic 兼容 Endpoint。密钥使用 Obsidian `SecretStorage` 保存。
 - ✨ **专注的进入体验**：空会话显示可降低动态效果的 thinking-orbs 动画；需要时可切回传统导航按钮。
@@ -34,6 +34,7 @@
   - [Kimi Code](https://moonshotai.github.io/kimi-code/) (`kimi`)
   - [Grok](https://docs.x.ai/docs/grok-code-fast-1) (`grok`)
   - [OpenCode](https://opencode.ai/) (`opencode`)
+  - [Command Code](https://commandcode.ai/) (`cmd`)
   - [Pi](https://github.com/badlogic/pi-mono) (`pi`)
 - **Node.js**：Node.js 24（仅从源码编译时需要）。
 

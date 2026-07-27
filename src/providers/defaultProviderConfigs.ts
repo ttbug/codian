@@ -1,6 +1,7 @@
 import type { ProviderConfigMap } from '../core/types/settings';
 import { DEFAULT_CLAUDE_PROVIDER_SETTINGS } from './claude/settings';
 import { DEFAULT_CODEX_PROVIDER_CONFIG } from './codex/settings';
+import { DEFAULT_COMMAND_CODE_PROVIDER_SETTINGS } from './commandcode/settings';
 import { DEFAULT_GROK_PROVIDER_SETTINGS } from './grok/settings';
 import { DEFAULT_NATIVE_ACP_PROVIDER_SETTINGS } from './native-acp/settings';
 import { DEFAULT_OPENCODE_PROVIDER_SETTINGS } from './opencode/settings';
@@ -14,5 +15,6 @@ export function getBuiltInProviderDefaultConfigs(): ProviderConfigMap {
     opencode: { ...DEFAULT_OPENCODE_PROVIDER_SETTINGS },
     kimi: { ...DEFAULT_NATIVE_ACP_PROVIDER_SETTINGS },
     pi: { ...DEFAULT_PI_PROVIDER_SETTINGS },
+    commandcode: { ...DEFAULT_COMMAND_CODE_PROVIDER_SETTINGS },
   };
 }

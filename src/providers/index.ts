@@ -2,6 +2,7 @@ import { ProviderRegistry } from '../core/providers/ProviderRegistry';
 import { ProviderWorkspaceRegistry } from '../core/providers/ProviderWorkspaceRegistry';
 import { claudeProviderRegistration } from './claude/registration';
 import { codexProviderRegistration } from './codex/registration';
+import { commandCodeProviderRegistration } from './commandcode/registration';
 import { grokProviderRegistration } from './grok/registration';
 import { kimiProviderRegistration } from './kimi/registration';
 import { opencodeProviderRegistration } from './opencode/registration';
@@ -16,6 +17,7 @@ export const BUILT_IN_PROVIDER_MODULES = [
   opencodeProviderRegistration,
   kimiProviderRegistration,
   piProviderRegistration,
+  commandCodeProviderRegistration,
 ] as const;
 
 export function registerBuiltInProviders(): void {
